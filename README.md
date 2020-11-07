@@ -18,7 +18,7 @@ Step 2: User1 selects private random number and sends result publicly to User2
 	User1 knows 3, 17, 15, 6
 	User2 knows 3, 17, 6
 	User5 knows 3, 17 from both User1 and User2
-				6 from User1
+			6 from User1
 		
 Step 3: User2 selects private random number and sends result publicly to User1
 		
