@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#define ll long long // Max # is 18446744073709551615
+#define ll long long // Max # is 9223372036854775807
 using namespace std; 
 
 ll modCalc(ll bas, ll exp, ll mod) {
