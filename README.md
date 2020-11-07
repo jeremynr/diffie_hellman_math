@@ -46,10 +46,10 @@ Step 4: User1 takes User2's result and raises it to the power of User1's private
 		User5 cannot decrypt because exponents used to generate shared secret are never sent publicly 
 		
 Result: 
-			User5
-			  |
-			  |
-			  |
+		User5
+		  |
+		  |
+		  |
 	User1====================User2
 		
 		
