@@ -33,7 +33,9 @@ Step 3: User2 selects private random number and sends result publicly to User1
 		
 *** Here is where the magic happens and where the confusion comes in (for me anyway)***
 		
-Step 4: User1 takes User2's result and raises it to the power of User1's private number	to obtain the SHARED SECRET </br>
+Step 4: Both users calculate shared secret
+
+	User1 takes User2's result and raises it to the power of User1's private number	to obtain the SHARED SECRET
         User2 takes User1's result and raises it to the power of User2's private number	to reach the same SHARED SECRET
 		
 	User1: 12 ^ 15 mod 17 = 10
@@ -41,7 +43,7 @@ Step 4: User1 takes User2's result and raises it to the power of User1's private
 	
 	*** OR ***
 	
-	User1: (3 ^ 13) ^ 15 mod 17 = (3 ^ 15) ^ 13 mod 17
+	(3 ^ 13) ^ 15 mod 17 = (3 ^ 15) ^ 13 mod 17
 		
 	User5 cannot decrypt because exponents used to generate shared secret are never sent publicly 
 		
