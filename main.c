@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 #define ll long long // Max # is 9223372036854775807
-using namespace std;
 
 // b=base e=exponent, m=modulo
 ll modCalc(ll b, ll e, ll m) {
