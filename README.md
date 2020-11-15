@@ -36,7 +36,7 @@ Step 3: User2 selects private random number and sends result publicly to User1
 Step 4: Both users calculate shared secret
 
 	User1 takes User2's result and raises it to the power of User1's private number	to obtain the SHARED SECRET
-        User2 takes User1's result and raises it to the power of User2's private number	to reach the same SHARED SECRET
+	User2 takes User1's result and raises it to the power of User2's private number to reach the same SHARED SECRET
 		
 	User1: 12 ^ 15 mod 17 = 10
 	User2:  6 ^ 13 mod 17 = 10
