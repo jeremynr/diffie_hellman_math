@@ -28,8 +28,7 @@ int main() {
     printf("Public: %d\t\tPublic: %d\n\n",u1pu,u2pu);
     printf("Shared Secret\n");
     printf("User1: %d\t\tUser2: %d\n\n",modCalc(u2pu,u1pr,mod),modCalc(u1pu,u2pr,mod));
-    
-	printf("SHOW THE MATH!\n");
+    printf("SHOW THE MATH!\n");
     printf("User 1 Public: %lld ^ %lld mod %lld: %lld\n",base,u1pr,mod,u1pu);
     printf("User 2 Public: %lld ^ %lld mod %lld: %lld\n",base,u2pr,mod,u2pu);
     printf("\n");
@@ -38,6 +37,5 @@ int main() {
     printf("User 2: %lld ^ %lld mod %lld: %lld\n",u1pu,u2pr,mod,modCalc(u1pu,u2pr,mod));
     printf("\n");
 
-	
     return 0;
 }
